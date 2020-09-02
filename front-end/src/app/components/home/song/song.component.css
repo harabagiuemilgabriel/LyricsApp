@@ -1,0 +1,10 @@
+.song
+{
+    cursor: pointer;
+    transition:.25s ease;
+}
+.song:hover
+{
+    transform:scale(1.1);
+    color:var(--blue-light);
+}

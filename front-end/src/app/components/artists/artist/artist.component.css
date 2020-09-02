@@ -1,0 +1,56 @@
+.ind-artist
+{   
+    position: relative;
+    margin: 0 10px 10px 10px;
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0 0  15px rgba(0,0,0,.2);
+    transition:.25s ease;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.name
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:var(--blue-light);
+    font-weight: 600;
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.artist-photo
+{
+    position: relative;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.cover-photo
+{
+    position: absolute;
+    transition:.25s ease;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color:rgba(0,0,0,.4);
+    box-shadow: inset 0 0 25px rgba(0,0,0,.6);
+}
+.cover-photo:hover
+{
+    background-color:rgba(92, 175, 243, 0.219);
+    opacity: .3;
+}
+.cover-photo:hover ~ .name
+{
+    color:var(--main-bg-color);
+    font-weight: 800;
+}
+

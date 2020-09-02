@@ -1,0 +1,89 @@
+.home-container
+{
+    width: 80vw;
+    margin:auto;
+    min-height: 90vh;
+    position: relative;
+}
+
+.hero-title
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:30%;
+    font-size: 2.5vw;
+    color:rgb(82, 104, 151);
+}
+.hero-title strong
+{
+    color:rgb(110, 152, 241);
+}
+
+.search-for-song-or-artist
+{
+    color:rgb(82, 104, 151);
+    position: absolute;
+    left:50%;
+    top:45%;
+    font-size: 1.2vw;
+    transform:translate(-50%,-50%);
+}
+
+.input-search
+{
+    position: absolute;
+    top:55%;
+    left:50%;
+    width: 350px;
+    background-color:rgb(50, 54, 63);
+    color:rgb(82, 104, 151);
+    border:none;
+    border-radius:2px;
+    padding:5px 25px;
+    transform:translateX(-50%);
+    transition:.25s ease;
+}
+.input-search:focus
+{
+    outline:none;
+    width: 400px;
+    color:rgb(110, 152, 241);
+}
+
+.output
+{
+    position: absolute;
+    top:70%;
+    width: 100%;
+    display: flex;
+}
+.artists,.songs,.lyrics
+{
+    flex:1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color:rgb(82, 104, 151);
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    margin:0 10px;
+}
+.title
+{
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 50px;
+}
+
+.cover
+{
+    pointer-events: none;
+    position: fixed;
+    left:0;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    background-color:rgba(0,0,0,.3);
+}

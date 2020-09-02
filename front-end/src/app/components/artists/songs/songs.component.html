@@ -1,0 +1,19 @@
+<div class="song-container" [ngClass]="open? 'open':''">
+    <div class="song-title">
+        <div class="title" [ngClass]="open? 'open-title':''">
+            {{ song.songName }}
+        </div>
+    </div>
+    <div class="song-lyrics">
+        <div class="lyrics" (click)="seeLyrics()" *ngIf="!open">
+            See lyrics
+        </div>
+        <div class="lyrics-container" *ngIf="open">
+            <div class="actual-lyrics">
+                <div (click)="closeLyrics()" class="exit"><p>X</p></div>
+                <div *ngIf='lyrics; else elseBlock'> <p *ngFor="let ly of lyrics">  {{ ly }} </p></div>
+                <div *ngIf='lyrics==null'><p>There are no lyrics for this son yet.</p></div>
+            </div>
+        </div>
+    </div>
+</div>

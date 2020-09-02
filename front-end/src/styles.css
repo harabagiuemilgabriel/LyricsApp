@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+:root {
+    --main-bg-color: rgb(34, 34, 34);
+    --blue-light:rgb(127, 167, 252);
+    --blue-dark:rgb(82, 104, 151);
+  }
+
+body
+{
+    background-color:var(--main-bg-color);
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px var(--main-bg-color);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px var(--main-bg-color);
+    background-color: #555;
+}
+

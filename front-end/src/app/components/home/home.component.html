@@ -1,0 +1,23 @@
+<div class="home-container">
+    <div class="hero-title">This is <strong>Norvo</strong>, your lyrics provider fo any song!</div>
+    <div class="search-for-song-or-artist">Search here for a Song, an Artist or Lyrics</div>
+    
+        <input *ngIf="!open? 'disable':''" class="input-search" type="text" [(ngModel)]="inputSearch" (ngModelChange)="InputChanged()">
+
+        <div *ngIf="inputSearch!=''"  class="output">
+            <div class="artists">
+                <p class="title">ARTISTS</p>
+                <app-home-artist *ngFor="let artist of artists" [artist]="artist" (click)="FocusArtist(artist)"></app-home-artist>
+            </div>
+            <div class="songs">
+                <p class="title">Songs</p>
+                <app-song *ngFor="let song of songs" [song]="song" (click)="FocusSong(song)"></app-song>
+            </div>
+            <div class="lyrics" *ngIf="lyrics">
+                <p class="title">Lyrics</p>
+                <app-lyric [lyrics]="lyrics"></app-lyric>
+            </div>
+            <app-pop-up-artist *ngIf="focusArtist || focusSong" [focusArtist]='focusArtist' [focusSong]='focusSong' (closeWindow)="closePopUp()"></app-pop-up-artist>
+        </div>
+        <div *ngIf="focusArtist || focusSong" class="cover"></div>
+</div>

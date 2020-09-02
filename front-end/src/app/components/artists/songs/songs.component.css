@@ -1,0 +1,82 @@
+.song-container
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:var(--main-bg-color);
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    display: flex;
+    margin-bottom: 10px;
+    padding: 50px 0;
+    transition:1s ease;
+}
+.song-title
+{
+    position: relative;
+    flex:1;
+}
+.title{
+    position: absolute;
+    left:50%;
+    height: fit-content;
+    transform: translate(-50%,-25%);
+    color:var(--blue-dark);
+    font-weight: 400;
+    width: fit-content;
+    transition:.25s ease;
+}
+
+.song-lyrics
+{
+    position: relative;
+    flex:1.5;
+}
+.lyrics
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    font-weight: 600;
+    transform:translate(-50%,-50%);
+    color:var(--blue-dark);
+    cursor: pointer;
+    transition:.25s ease;
+}
+.lyrics:hover
+{
+    color:var(--blue-light);
+}
+
+.open
+{
+    height: fit-content;
+}
+
+.lyrics-container p
+{
+    color:var(--blue-dark);
+}
+
+
+
+.exit
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top:0%;
+    right: 20px;
+    background-color:var(--blue-dark);
+    border-radius: 6px 3px 6px 3px;
+    cursor: pointer;
+}
+.exit p
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-weight: 800;
+    color:var(--main-bg-color);
+}
+

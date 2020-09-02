@@ -1,0 +1,23 @@
+.artists-container
+{
+    width: 80vw;
+    margin:auto;
+    min-height: 80vh;
+    margin-top:10vh;
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+    font-size:2.5vw;
+    color:rgb(127, 167, 252);
+    font-weight: 600;
+}
+.artists-collection
+{
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+

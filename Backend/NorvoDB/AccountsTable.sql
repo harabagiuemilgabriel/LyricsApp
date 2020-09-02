@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[AccountsTable]
+(
+	[Id] INT IDENTITY (1,1) NOT NULL PRIMARY KEY,
+	[UserName] VARCHAR(50) NOT NULL,
+	[Email] VARCHAR(100) NOT NULL,
+	[ConfirmPassword] INT NOT NULL,
+	[Password] VARCHAR(50) NOT NULL,
+	[FirstName] VARCHAR(50) NULL,
+	[LastName] VARCHAR(50) NULL,
+	PRIMARY KEY CLUSTERED([Id] ASC)
+)

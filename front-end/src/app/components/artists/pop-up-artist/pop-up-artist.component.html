@@ -1,0 +1,20 @@
+
+
+    <div class="pop-up-artist-container" *ngIf="focusArtist">
+        <div class="close-window" (click)="close()">
+            <div class="x">X</div>
+        </div>
+        <div class="left-side">
+            <img class="artist-photo" src="{{focusArtist.photo}}">
+            <div class="name">
+                {{ focusArtist.artistName }}
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="songs-label">Songs</div>
+            <div class="songs-container" *ngIf="songs">
+                <app-songs *ngFor='let song of songs' [song]='song' [focusSong]='focusSong.songId'></app-songs>
+            </div>
+        </div>
+    </div>
+

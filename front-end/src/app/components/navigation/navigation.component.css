@@ -1,0 +1,76 @@
+.nav-container
+{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 3.5vw;
+    display: flex;
+    z-index: 10;
+    background-color:rgba(0,0,0,.1);
+}
+
+ul li
+{
+    transition:.25s ease;
+}
+
+.logo
+{
+    flex:2;
+    position: relative;
+    height: fit-content;
+    top:50%;
+    left:50px;
+    transform:translateY(-50%);
+}
+
+.logo a
+{
+    text-decoration:none;
+    font-size: 2.5vw;
+    font-weight: 900;
+    color:rgb(127, 167, 252);
+}
+
+ul
+{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: fit-content;
+    top:50%;
+    transform: translateY(-50%);
+    list-style-type: none;
+    margin-right:50px;
+}
+
+li a
+{
+    position: relative;
+    transform:translateY(20%);
+    height: fit-content;
+    font-size:1.2vw;
+    font-weight: 500;
+    color:rgb(127, 167, 252);
+    cursor: pointer;
+    text-decoration:none;
+}
+
+li .login 
+{
+    background-color:rgb(127, 167, 252);
+    position: relative;
+    color:white;
+    transform:translateY(0px);
+    padding:2px 15px;
+    border-radius:6px;
+}
+
+li:hover
+{
+    transform:scale(1.1);
+}
+
+

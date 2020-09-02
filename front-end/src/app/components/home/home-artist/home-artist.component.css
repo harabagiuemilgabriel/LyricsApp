@@ -1,0 +1,10 @@
+.artist
+{
+    cursor: pointer;
+    transition:.25s ease;
+}
+.artist:hover
+{
+    transform:scale(1.1);
+    color:var(--blue-light);
+}

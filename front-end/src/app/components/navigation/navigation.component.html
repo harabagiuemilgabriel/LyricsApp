@@ -1,0 +1,9 @@
+<div class="nav-container">
+    <div class="logo"><a routerLink="/">Norvo</a></div>
+    <ul>
+        <li ><a routerLink="/artists">Artists</a></li>
+        <li ><a routerLink="/contact">Contact</a></li>
+        <li ><a routerLink="/login" class="login" *ngIf="!LoggedIn">Login</a></li>
+        <li ><a class="login" *ngIf="LoggedIn" (click)="logOut()">Log Out</a></li>
+    </ul>
+</div>

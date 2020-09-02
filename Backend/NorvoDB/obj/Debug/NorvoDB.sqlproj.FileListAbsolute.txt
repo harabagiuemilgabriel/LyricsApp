@@ -1,0 +1,6 @@
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\bin\Debug\NorvoDB.dacpac
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\bin\Debug\NorvoDB.dll
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\bin\Debug\NorvoDB.pdb
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\obj\Debug\NorvoDB.sqlprojAssemblyReference.cache
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\obj\Debug\NorvoDB.dll
+C:\Users\harab\Desktop\AngularProj\Backend\NorvoDB\obj\Debug\NorvoDB.pdb

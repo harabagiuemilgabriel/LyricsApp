@@ -1,0 +1,7 @@
+<div class="artists-container">
+    <p class="title">Artists</p>
+    <div class="artists-collection"  *ngIf="artists" >
+        <app-artist  *ngFor="let artist of artists" [artist]="artist" (output)="openWindow($event)"></app-artist>
+    </div>
+    <app-pop-up-artist [focusArtist]="focusArtist" (closeWindow)="closeWindow()" *ngIf="focusArtist" @fade></app-pop-up-artist>
+</div>
