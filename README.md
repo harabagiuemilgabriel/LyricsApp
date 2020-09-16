@@ -9,9 +9,9 @@ Angular and anything else that comes by the end of the project.
 The things that I learned:
 ```
 <br>
-<strong>backend:</strong>
- - How API's work and how to make one <br>       
- <strong>-</strong> Code first approach for SqlServer  <br>                   
+<strong>backend:</strong><br>
+        <strong>-</strong> How API's work and how to make one <br>       
+        <strong>-</strong> Code first approach for SqlServer  <br>                   
         <strong>-</strong> How to integrate JWT Authentication<br>
         <strong>-</strong> Swagger<br>
         <strong>-</strong> Eager loading and lazy loading<br>
