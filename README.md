@@ -28,6 +28,7 @@ The things that I learned:
    <br><br>
 Some screenshots:
 <br><br>
+
 ![Hero](./Images/home.png)
 
 ![Search](./Images/search.png)
