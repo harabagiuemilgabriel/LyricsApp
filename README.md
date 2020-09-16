@@ -29,8 +29,6 @@ Some screenshots:
 
 ![Login](./Images/login.png)
 
-![Register](./Images/register.png)
-
 ![Artists](./Images/artists.png)
 
 ![Pop-up](./Images/pop-up.png)
