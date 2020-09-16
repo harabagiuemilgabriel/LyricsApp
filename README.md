@@ -9,14 +9,14 @@ Angular and anything else that comes by the end of the project.
 The things that I learned:
 ```
 <br>
-# backend:
+** backend: **
   <br>
         <strong>-</strong> How API's work and how to make one <br>       
         <strong>-</strong> Code first approach for SqlServer  <br>                   
         <strong>-</strong> How to integrate JWT Authentication<br>
         <strong>-</strong> Swagger<br>
         <strong>-</strong> Eager loading and lazy loading<br>
- ## frontend:
+ ** frontend: **
    <br>
         <strong>-</strong> Guards<br>
         <strong>-</strong> Interceptors<br>
