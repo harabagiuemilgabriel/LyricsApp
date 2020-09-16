@@ -10,7 +10,6 @@ The things that I learned:
 ```
 <br>
 <strong>backend:</strong>
-  <br>
  <strong>-</strong> How API's work and how to make one <br>       
  <strong>-</strong> Code first approach for SqlServer  <br>                   
         <strong>-</strong> How to integrate JWT Authentication<br>
