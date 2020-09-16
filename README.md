@@ -8,6 +8,7 @@ Angular and anything else that comes by the end of the project.
 ```diff
 The things that I learned:
 ```
+<br>
     <strong">backend</strong>: <br>
         - How API's work and how to make one <br>       
         - Code first approach for SqlServer  <br>                   
@@ -17,8 +18,7 @@ The things that I learned:
     <strong">frontend</strong>:<br> 
         - Guards<br>
         - Interceptors<br>
-        - Rxjs<br>
-        
+        - Rxjs<br>       
  The way that this project works:
        You can search for artists, songs and lyrics in the main page. You can click on results, and a window will pop-up with the artist that you selected along with they'r songs.
    If you clicked a song or lyrics, the same pop-up will appear, but the song that matches the selected result will be open. In this pop-up, you can add or remove the artist or any song into/from your favorite list.
