@@ -6,7 +6,7 @@ Lyrics2Go is a lyrics provider made with .Net Core Web Api and Angular framework
 Angular and anything else that comes by the end of the project.
 
 ```diff
-##The things that I learned:
+The things that I learned:
 ```
 <br>
    <strong> backend: </strong> <br>
