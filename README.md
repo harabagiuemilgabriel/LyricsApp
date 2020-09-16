@@ -25,9 +25,9 @@ The things that I learned:
        You can search for artists, songs and lyrics in the main page. You can click on results, and a window will pop-up with the artist that you selected along with they'r songs.
    If you clicked a song or lyrics, the same pop-up will appear, but the song that matches the selected result will be open. In this pop-up, you can add or remove the artist or any song into/from your favorite list.
    You can see your favorite list in the 'Profile' page. By default the filter is set to 'all', that means that both artists and songs will be displayed, but you can select to display only the songs or only the artists.
-   <br>
+   <br><br>
 Some screenshots:
-<br>
+<br><br>
 ![Hero](./Images/home.png)
 
 ![Search](./Images/search.png)
