@@ -10,15 +10,15 @@ The things that I learned:
 ```
 <br>
    <strong> backend: </strong> <br>
-        - How API's work and how to make one <br>       
-        - Code first approach for SqlServer  <br>                   
-        - How to integrate JWT Authentication<br>
-        - Swagger<br>
-        - Eager loading and lazy loading<br>
+        <strong>-</strong> How API's work and how to make one <br>       
+        <strong>-</strong> Code first approach for SqlServer  <br>                   
+        <strong>-</strong> How to integrate JWT Authentication<br>
+        <strong>-</strong> Swagger<br>
+        <strong>-</strong> Eager loading and lazy loading<br>
     <strong>frontend</strong>:<br> 
-        - Guards<br>
-        - Interceptors<br>
-        - Rxjs<br>     
+        <strong>-</strong> Guards<br>
+        <strong>-</strong> Interceptors<br>
+        <strong>-</strong> Rxjs<br>     
 <br><br>
  The way that this project works:
        You can search for artists, songs and lyrics in the main page. You can click on results, and a window will pop-up with the artist that you selected along with they'r songs.
