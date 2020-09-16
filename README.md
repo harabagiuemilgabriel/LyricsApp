@@ -7,7 +7,8 @@ Angular and anything else that comes by the end of the project.
 
 ```diff
 +The things that I learned
-```:<br>
+```
+:<br>
     <strong style="color:rgb(100,100,100)">backend</strong>: 
         - How API's work and how to make one        
         - Code first approach for SqlServer                     
