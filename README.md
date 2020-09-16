@@ -23,4 +23,20 @@ The things that I learned:
    You can see your favorite list in the 'Profile' page. By default the filter is set to 'all', that means that both artists and songs will be displayed, but you can select to display only the songs or only the artists.
    
 Some screenshots:
-![Hero](./Images/hero.png)
+![Hero](./Images/home.png)
+
+![Search](./Images/search.png)
+
+![Login](./Images/login.png)
+
+![Register](./Images/register.png)
+
+![Artists](./Images/artists.png)
+
+![Pop-up](./Images/pop-up.png)
+
+![Lyrics](./Images/lyrics.png)
+
+![Profile-all](./Images/profile-all.png)
+
+![Profile-Songs](./Images/profile-songs.png)
