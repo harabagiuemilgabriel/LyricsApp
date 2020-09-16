@@ -9,18 +9,16 @@ Angular and anything else that comes by the end of the project.
 The things that I learned:
 ```
 <br>
-    <strong">```diff
-    @@backend@@ 
-    ```</strong>: 
-        - How API's work and how to make one        
-        - Code first approach for SqlServer                     
-        - How to integrate JWT Authentication
-        - Swagger
-        - Eager loading and lazy loading
-    frontend:
-        - Guards
-        - Interceptors
-        - Rxjs
+    <strong">backend</strong>: <br>
+        - How API's work and how to make one <br>       
+        - Code first approach for SqlServer  <br>                   
+        - How to integrate JWT Authentication<br>
+        - Swagger<br>
+        - Eager loading and lazy loading<br>
+    <strong">frontend</strong>:<br> 
+        - Guards<br>
+        - Interceptors<br>
+        - Rxjs<br>
         
  The way that this project works:
        You can search for artists, songs and lyrics in the main page. You can click on results, and a window will pop-up with the artist that you selected along with they'r songs.
