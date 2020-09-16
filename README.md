@@ -1,4 +1,4 @@
-##Lyrics2Go
+# Lyrics2Go
 
 Lyrics2Go is a lyrics provider made with .Net Core Web Api and Angular framework. 
 
