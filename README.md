@@ -8,7 +8,6 @@ Angular and anything else that comes by the end of the project.
 ```diff
 The things that I learned:
 ```
-<br>
     <strong">backend</strong>: <br>
         - How API's work and how to make one <br>       
         - Code first approach for SqlServer  <br>                   
