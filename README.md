@@ -5,7 +5,9 @@ Lyrics2Go is a lyrics provider made with .Net Core Web Api and Angular framework
   The purpose of this project was to learn how API's work and how to make one, how to separete the backend from the frontend, to learn more about SQL Server, to learn more about
 Angular and anything else that comes by the end of the project.
 
-The things that I learned:<br>
+```diff
++The things that I learned
+```:<br>
     <strong style="color:rgb(100,100,100)">backend</strong>: 
         - How API's work and how to make one        
         - Code first approach for SqlServer                     
