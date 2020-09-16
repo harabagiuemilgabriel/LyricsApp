@@ -6,7 +6,7 @@ Lyrics2Go is a lyrics provider made with .Net Core Web Api and Angular framework
 Angular and anything else that comes by the end of the project.
 
 The things that I learned:<br>
-    <strong>backend</strong>: 
+    <strong style="color:red;">backend</strong>: 
         - How API's work and how to make one        
         - Code first approach for SqlServer                     
         - How to integrate JWT Authentication
